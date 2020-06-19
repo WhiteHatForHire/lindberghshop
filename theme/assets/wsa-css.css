@@ -1,0 +1,35 @@
+body {
+    margin-top: 0px;
+  	width=100% !important;
+  }
+  .wsa-demobar {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(http://static.webshopapp.com/assets/wsa-demobar-bg.png?2016-10-28);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    font-size: 14px;
+    font-family: Helvetica;
+    z-index: 1000;
+  }
+
+  .wsa-demobar a {
+    color: #fff;
+  }
+
+  .wsa-demobar a.close {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    background: url(http://static.webshopapp.com/assets/wsa-demobar-close.png?2016-10-28);
+  }
