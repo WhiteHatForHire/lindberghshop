@@ -1,0 +1,377 @@
+/* Marco Moretto, Made the products bigger when navigating through categories, Oct 23rd 2018 START. */
+.hidden-sm.hidden-xs.buy-mobile-width-fixer {
+    visibility: hidden;
+}
+.product-inner{
+     width:150% !important;
+}
+ .about-page img {
+     max-width: none;
+     height: auto;
+}
+ table {
+     background-color: transparent;
+     border-color: transparent;
+}
+/* Marco Moretto, END. */
+ .banner-1, .banner-1.with-mobile {
+     background: url(https://cdn.shoplightspeed.com/themes/6891/assets/sweater.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .banner-2, .banner-2.with-mobile {
+     background: url(https://cdn.shoplightspeed.com/themes/6891/assets/outerwear-min1.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .banner-2-right, .banner-2-right.with-mobile {
+     background: url(https://cdn.shoplightspeed.com/themes/6891/assets/bottom-min.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .banner-sweaters, .banner-sweaters.with-mobile {
+     background: url((https://cdn.shoplightspeed.com/themes/6891/assets/polos-min.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .banner-3, .banner-3.with-mobile {
+     background: url((https://cdn.shoplightspeed.com/themes/6891/assets/follow-us-min.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .banner-jackets, .banner-jackets.with-mobile {
+     background: url((https://cdn.shoplightspeed.com/themes/6891/assets/shirts-min.jpg) no-repeat center center;
+     background-size: cover;
+}
+ .socials a.social-icon{
+     display: inline-block;
+     width: 45px;
+     height: 45px;
+     line-height: 45px;
+     font-size: 18px;
+     text-align: center;
+     background-color: black;
+     border: 1px solid #e6e5f4;
+     border-radius: 50%;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+ .socials a.social-icon:hover{
+     background:#e03e4c;
+     border-color:#e03e4c;
+}
+ .socials{
+     margin-top: 300px;
+     color: black;
+}
+ #footer .socials{
+     margin-top:0px;
+}
+/*Footer CSS*/
+#footer .main-footer {
+    padding-bottom: 20px;
+}
+.footer-logo {
+  margin-bottom: -25px;
+}
+/*Checkout Page CSS*/
+#gui-wrapper .gui-checkout .gui-col2-right-col1.gui-checkout-steps,
+#gui-form .gui-col3-equal-col1 {
+    width: 100%!important;
+}
+#custom-cart .btn:not(.product-add-cart-btn) {
+    padding: 0 35px;
+    height: 46px;
+    line-height: 46px;   
+}
+a#gui-block-method-continue {
+    padding: 0 25px;
+    height: 42px;
+    line-height: 42px;
+    background: #2c2c2c;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 13px;
+    transition: all .2s ease;
+}
+#gui-wrapper.gui-checkout .gui-col2-right {
+    background: #f5f5f5;
+  border-radius: 15px;
+}
+#gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps {
+    width: 1000px !important;
+    background: #f5f5f5;
+    margin: 0 auto;
+    padding: 50px 25px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+#gui-wrapper.gui-checkout .gui-block-title {
+    color: #000;
+    background-color: transparent;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 0 15px;
+}
+
+form#gui-form .gui-checkout-steps {
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+#gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps input[type="radio"] {
+  margin: -1px 6px 0 1px;
+}
+#gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps input[type="checkbox"] {
+    margin-top: 0px;
+}
+form#gui-form .gui-col3-equal-col2 {
+    width: 100%;
+}
+form#gui-form .gui-block-subtitle.gui-bigger {
+    text-transform: capitalize;
+}
+form#gui-form .gui-col3-equal-col3,
+form#gui-form .gui-col3-equal-col2 {
+    width: 100%;
+    padding: 0 25px 20px;
+}
+div#gui-block-billing-address {
+    padding: 20px 25px;
+}
+#gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps .gui-select select,
+#gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps .gui-input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+div#gui-block-shipping-address {
+      padding: 0 25px 20px;
+}
+/* #End Checkout Page CSS*/
+
+#footer .newsletter-bar #formNewsletter input {
+    padding: 10px;
+    height: 36px;
+}
+#footer .newsletter-bar #formNewsletter a.btn {
+    font-size: 16px;
+    height: 36px;
+}
+/*modifications 28-11-2019*/
+ #header .search .search-text-remover{
+     top: -15px;
+}
+/*@media (min-width: 425px){
+     .col-sm-6:nth-of-type(2) {
+         top:100px;
+    }
+    */
+}
+ @media (min-width: 768px){
+   .footer-logo {
+    margin-bottom: -25px;
+    padding-top: 0;
+}
+     #header .search .search-text-remover {
+         top: 120px;
+    }
+}
+@media (max-width: 1199px) {
+  #footer .main-footer .socials a.social-icon {
+    width: 32px;
+    height: 32px;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .product-collection .img .second img, .product-collection .img .first img {
+    max-width: 100%;
+    max-height: 270px;
+}
+  .desktop-view-col {
+    max-height: 275px;
+    overflow: hidden;
+}
+}
+ @media (max-width: 767px){
+  #gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps {
+    padding: 20px 10px 10px;
+}
+   div#help_menu,
+   div#company_menu {
+    width: 33.33%;
+    float: left;
+}
+   div#service_menu {
+    width: 33.33%;
+    float: left;
+}
+   .footer-middle label.grid-cell.grow0 {
+    margin-bottom: 0!important;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+   #footer .footer-logo img {
+    max-width: 175px;
+}
+   #footer .newsletter-bar #formNewsletter a.btn {
+    font-size: 16px;
+    height: 36px;
+    width: 40px;
+    right: 0;
+}
+   .mobile-slide.service_menu li {
+    padding: 3px 0;
+    margin: 0;
+}
+ /* .mobile-slide.service_menu li:nth-child(2) img {
+    margin-left: 26px;
+}
+   .mobile-slide.service_menu li:nth-child(4) img {
+    margin-left: 23px;
+    margin-bottom: 20px;
+}*/
+  
+   .newsletter-bar .container {
+    padding: 0!important;
+}
+   #footer .mobile-slide .footer-title {
+   margin: 20px 0px -15px 00px !important;
+    height: auto!important;
+}
+    /*css added by HC- 20 May*/
+   .mobile-view-col {
+    width: auto;
+    margin-left: 0;
+    height: auto;
+}
+   .footer-logo {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -25px;
+}
+    .product-collection .img .second, .product-collection .img .first {
+    text-align: center;
+}
+     .products .product .title {
+         height: 42px !important;
+    }
+     .product-add-cart.grid.center.hidden-sm__.hidden-xs__.Mobile_btn_ATC {
+         position: static;
+         max-width: 100%;
+         padding: 8px 15px;
+         width: 100%;
+         margin-top: 10px;
+         text-align: center;
+    }    
+     #footer .mobile-slide ul{
+        display: block !important;
+        margin: 0;        
+    }
+     .more-cats{
+         display:none;
+    }
+     #header .search .search-text-remover {
+         top: -29px;
+    }
+     .footer-title {
+         height: none;
+    }  
+   form#gui-form .gui-col3-equal-col3,
+   div#gui-block-billing-address {
+      padding-bottom: 0;
+  }
+}
+@media (max-width: 499px){
+  #gui-wrapper.gui-checkout .gui-col2-right-col1.gui-checkout-steps {
+    padding: 20px 10px 5px;
+}
+  form#gui-form a.gui-button-small.gui-button-action {
+    width: 100%;
+}
+  
+  div#help_menu{
+    width: 26%;
+    padding: 0 0px 0 20px;
+}
+  .product-collection .img .second img, 
+  .product-collection .img .first img {
+    max-width: 100%;
+    max-height: 200px;
+}
+  .row.products.col-page-products .product {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mobile-view-col {
+      height: 240px;
+  }
+}
+@media (max-width: 420px){
+  .footer-middle label.grid-cell.grow0 {
+    margin-bottom: 0px!important;
+    font-size: 12px;
+  }
+  #service_menu ul li a img {
+    max-width: 100%;
+}
+  #footer .mobile-slide ul li a {
+    font-size: 11px;
+    line-height: normal;
+}
+  #footer .mobile-slide .footer-title {
+    font-size: 12px;
+}
+   div#help_menu{
+    width: 26%;
+    padding: 0 0px 0 20px;
+}
+  #footer p.couleurText {
+    margin: 0;
+    font-size: 12px;
+    line-height: 24px;
+}
+  #footer .main-footer .socials {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+  .footer-middle label.grid-cell.grow0 {
+    font-size: 11px;
+    line-height: normal;
+}
+  div#company_menu {
+    width: 25%;
+}
+   div#service_menu {
+    width: 49%;
+}
+  #footer .newsletter-bar {
+    padding: 5px 0;
+}
+.mobile-view-col {
+      height: 200px;
+  }
+}
+ @media (min-width: 992px){
+  .product-collection .img .second, .product-collection .img .first {
+    text-align: center;
+  }
+  .products .product-collection.product {
+    padding: 0 0 15px 0px;
+  }
+   .product-collection .desktop-view-col {
+    overflow: hidden;
+    height: 375px;
+  }
+  #header .search .search-text-remover{
+    top: -15px;
+  }
+}
+ .about-page img {
+     width: 60%;
+}
+ .textpage h2{
+     font-size: 40px;
+}
+ i.fa.fa-search {
+     display:none;
+}
